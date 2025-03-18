@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frolic Finds - Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1B3B1A;
+            font-family: 'Atma', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #F5E6A1;
+            padding: 30px;
+            border-radius: 20px;
+            border: 8px solid #8C5A1E;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
+            width: 140px;
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 27px;
+            font-weight: bold;
+            letter-spacing: 6px;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid #8C5A1E;
+            font-size: 16px;
+            font-family: 'Atma', sans-serif;
+            text-align: center;
+        }
+        .btn {
+            background-color: #F5E6A1;
+            padding: 10.5px 40px;
+            border-radius: 25px;
+            border: 3px solid #8C5A1E;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+            letter-spacing: 3px;
+            transition: background 0.2s ease-in-out;
+            font-family: 'Atma', sans-serif;
+        }
+        .btn:hover {
+            background-color: #E4D097;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Imgs/Logo concept 1.png" alt="Frolic Finds Logo" class="logo">
+        <div class="title">Login</div>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Username or Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn">Log In</button>
+        </form>
+    </div>
+</body>
+</html>
